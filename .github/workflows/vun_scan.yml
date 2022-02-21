@@ -5,7 +5,7 @@ on:
     branches:
       - master
 Schedule:
-     - cron:'5 * * * * '
+     - cron:'5 * * * *'
 
 env:
   DEP_PATH: src/requirements.txt
