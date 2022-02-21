@@ -1,4 +1,4 @@
-name: Python safety check1
+name: Python safety check
 
 on:
   schedule:
