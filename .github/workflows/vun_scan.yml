@@ -16,3 +16,5 @@ jobs:
 
       - name: Security vulnerabilities scan
         uses: aufdenpunkt/python-safety-check@master
+        with:
+          safety_args: '--full-report'
